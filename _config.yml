@@ -1,0 +1,21 @@
+# Site settings
+title: Another Coding Blog
+header-img: img/home-bg.png
+email: adam.taitano@gmail.com
+copyright_name: adamtaitano
+description: > # this means to ignore newlines until "baseurl:"
+  Brief Musings On Learning Ruby
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: AdamTaitano
+github_username:  adamtaitano
+learn_profile: adamtaitano
+email_username: adam.taitano@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
